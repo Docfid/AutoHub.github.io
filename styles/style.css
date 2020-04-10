@@ -48,7 +48,7 @@ body {
    padding-top: 300px;
 }
 .slider{
-    max-width: 70%;
+    width: 1200px;
     position: relative;
     margin: auto;
     height: 900px;
@@ -57,11 +57,8 @@ body {
 }
 /* Картинка мастабируется по отношению к родительскому элементу */
 .slider .item img {
-    object-fit: cover;
     width: 100%;
     height: 800px;
-    border: none !important;
-    box-shadow: none !important;
 }
 /* Кнопки вперед и назад */
 .slider .prev, .slider .next {
